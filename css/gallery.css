@@ -1,0 +1,184 @@
+/* global*/
+
+a {
+	text-decoration: none;
+	color: #a70b03;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+	transition: all .15s ease;
+	-o-transition: all .15s ease;
+	-moz-transition: all .15s ease;
+	-webkit-transition: all .15s ease;
+}
+
+a:hover {
+	color: #428eb3;
+	transition: all .15s linear;
+	-o-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	-webkit-transition: all .15s linear;
+}
+
+p {
+	font-family: 'Raleway Dots', cursive;
+	color: #FFF;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+}
+
+/*Layout*/
+body {
+	background-color: #3CD6E6;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
+	z-index: 999999999999999;
+	height: 100px;
+	background-color:  seashell;
+	-moz-box-shadow: 2px 2px #000;
+	-webkit-box-shadow: 2px 2px #000;
+	box-shadow: 2px 2px #000;
+}
+
+a.logo {
+	float: left;
+}
+
+header nav ul {
+	float: left;
+	padding: 0 5px;
+	width: 66%;
+}
+
+header nav ul li {
+	float: left;
+	display: inline-block;
+	margin-left: 80px;
+	margin-top: 43px;
+	position: relative;
+}
+
+/*Sub_header*/
+.sub_header {
+	background-color: #F37;
+	border: 1px solid #000;
+	height: 50px;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+p.name {
+	text-align: center;
+	margin-top: -32px;
+	color: #0DE;
+	font-size: 28px;
+}
+
+/* Content */
+div#content {
+	width: 74%;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+div.sub_banner_wrapper {
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+	position: relative;
+	margin-top: 35px;
+}
+
+img.sub_banner {
+	border-radius: 10px;
+}
+
+div.sub_banner_last {
+	margin-right: 0px;
+}
+
+img.info_banner {
+	float: left;
+	width: 48%;
+	margin-top: 35px;
+	border-radius: 10px;
+}
+
+img.info_banner_two {
+	float: left;
+	width: 48%;
+	padding-left: 2px;
+	margin-left: 35px;
+	margin-top: 35px;
+	border-radius: 10px;
+}
+
+img.infobanner {
+  float: left;
+  width: 50%;
+  margin-top: -44px;
+}
+
+.clear {
+	clear: both;
+}
+
+footer {
+	margin-top: 52px;
+	width: 100%;
+	height: 135px;
+	padding: 15px;
+	background-color: seashell;
+}
+
+/*footer Nav*/
+ .footernav ul {
+	float: left;
+	padding: 0 20px;
+	margin-left: 200px;
+}
+
+.footernav ul li {
+	float: left;
+	display: inline-block;
+	margin-left: 80px;
+	margin-top: 43px;
+	position: relative;
+}
+
+/*Social Icons*/
+ul.social_icons {
+	width: 960px;
+	margin: 0 auto;
+}
+
+ul.social_icons li {
+	display: inline-block;
+	margin-top: 28px;
+	margin-left: 110px;
+	width: 40px;
+	float: left;
+	position: relative;
+}
+
+ul.social_icons li img {
+	border-radius: 10px;
+	width: 100%;
+}
+
+/*Company Name*/
+.beth {
+	margin-top: 102px;
+}
+
+p.c_name {
+	text-align: center;
+	margin-left: 808px;
+	color: #0DE;
+	font-size: 26px;
+	width: 16%;
+}
